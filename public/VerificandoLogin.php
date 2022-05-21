@@ -14,7 +14,7 @@
     }
 
 ////////////////////////////////////////////////
-require_once 'src/model/Database.php';
+require_once '../src/model/Database.php';
 $db = new Database();
 
 // Checa pra ver se tem algum email igual na database e armazena em variavel
@@ -33,10 +33,10 @@ if( isset($resultDb[0]) ){
     if($email != null && $senha != null){
         if($email == $emailDb && $senha == $senhaDb) {
             $msg = 'Bem vindo! 😀👍';
-            $redirect = "<meta http-equiv='refresh' content='3; url= index.html'/>";
+            $redirect = "<meta http-equiv='refresh' content='2; url= inicio.php'/>";
         } else {
             $msg = 'Acesso negado! 👎😭 <hr>';
-            $redirect = "<meta http-equiv='refresh' content='3; url= login.html'/>";
+            $redirect = "<meta http-equiv='refresh' content='2; url= login.php'/>";
         }
     }
 

@@ -20,7 +20,7 @@ if( isset($_POST['pass']) ) {
 }
 
 ////////////////////////////////////////////////
-require_once 'src/model/Database.php';
+require_once '../src/model/Database.php';
 $db = new Database();
 
 $db->insert(
@@ -31,7 +31,7 @@ $db->insert(
 );
 
 //Redireciona para o login.html
-header('Location: login.html');
+header('Location: login.php');
 
 ?>
 

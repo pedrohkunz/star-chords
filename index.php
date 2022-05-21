@@ -1,5 +1,5 @@
 <?php 
 
-    header("location: ../STAR_CHORDS/public/inicio.php")
+    header("location: public/inicio.php")
     
 ?>
