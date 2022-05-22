@@ -24,14 +24,14 @@ $resultDb = $db->select(
 
 if( isset($resultDb[0]) ){
     $emailDb = $resultDb[0]->email;
-    $senhaDb = $resultDb[0]->senha;
+    $passDb = $resultDb[0]->pass;
 } else {
     $emailDb = null;
-    $senhaDb = null;
+    $passDb = null;
 }
 ///////////////////////////////////////////////
-    if($email != null && $senha != null){
-        if($email == $emailDb && $senha == $senhaDb) {
+    if($email != null && $passDb != null){
+        if($email == $emailDb && $senha == $passDb) {
             $msg = 'Bem vindo! 😀👍';
             $redirect = "<meta http-equiv='refresh' content='2; url= inicio.php'/>";
         } else {

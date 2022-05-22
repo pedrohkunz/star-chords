@@ -1,3 +1,12 @@
+<?php
+
+use Database\Database;
+
+require_once "../src/model/Database.php";
+$db = new Database();
+
+?>
+
 <?php require_once "../src/views/header_login.php" ?>
 
 <body>
@@ -18,10 +27,12 @@
                     <input type="password" name = 'pass' placeholder="Digite sua senha" class="form-control col-sm-2 col-lg-2" id="exampleInputPassword1" required>
                 </div>
                 <br>
-                    <div class="botoes">
-                        <input type="submit" class="btn btn-primary" value="Entrar" />
+                <div class="botoes">
+                    <input type="submit" class="btn btn-primary" value="Entrar" />
                     &nbsp;
-                    <input type="button" class="btn btn-primary" value="Criar conta" />  
+                    <a href="../public/criar_conta.php">
+                        <input type="button" class="btn btn-primary" value="Criar conta" />  
+                    </a>
                 </div>                
             </form>
         </div>

@@ -14,9 +14,9 @@ if( isset($_POST['email']) ) {
 }
 
 if( isset($_POST['pass']) ) {
-    $senha = $_POST['pass'];
+    $pass = $_POST['pass'];
 } else{
-    $senha = null;
+    $pass = null;
 }
 
 ////////////////////////////////////////////////
@@ -25,9 +25,9 @@ $db = new Database();
 
 $db->insert(
     "INSERT INTO cadastros
-    (nome, email, senha)
+    (nome, email, pass)
     VALUES
-    ('$nome', '$email', '$senha')"
+    ('$nome', '$email', '$pass')"
 );
 
 //Redireciona para o login.html
