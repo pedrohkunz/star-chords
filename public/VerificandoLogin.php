@@ -43,6 +43,6 @@ if( isset($resultDb[0]) ){
 ?>
 
 <html>
-    <h1> <?php echo isset($msg) ? $msg : "Se isso estiver Aparecendo, tem algo de errado." ?> </h1>
+    <h1> <?php echo isset($msg) ? $msg : "<meta http-equiv='refresh' content='0; url= login.php'/>" ?> </h1>
             <?= isset($redirect) ? $redirect : "<hr>" ?>
 </html>

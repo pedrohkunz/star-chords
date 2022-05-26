@@ -12,10 +12,16 @@
     <hr style="color: white">
         <br>
     <h1 class="titulo">Bandas recomendadas</h1>
-    <div class="banner_banda">
-        <button style="border-radius: 1em" type="button"> <img src="assets/img/mettalica_banner.jpg" height ="200" width="280" /></button> &nbsp;&nbsp;&nbsp;
-        <button style="border-radius: 1em" type="button"> <img src="assets/img/pinkfloyd_banner.png" height ="200" width="280" /></button>
-    </div>
+        <div class="banner_banda">
+            <button style="border-radius: 1em" type="button"> <img src="assets/img/mettalica_banner.jpg" height ="200" width="280" /></button> &nbsp;&nbsp;&nbsp;
+            <button style="border-radius: 1em" type="button"> <img src="assets/img/pinkfloyd_banner.png" height ="200" width="280" /></button> &nbsp;&nbsp;&nbsp;
+            <button style="border-radius: 1em" type="button"> <img src="assets/img/megadeath_banner.png" height ="200" width="280" /></button>
+        </div>
+        <br><br>
+    <h1 class="titulo">Estilos Musicais</h1>
+        <div class="generos_musicais">
+            <img style="border-radius: 1em;" src="assets/img/Artboard-1_1.png" height="200" width="280" > </button> &nbsp;&nbsp;&nbsp;
+        </div>
 </body>
 
 </html>
