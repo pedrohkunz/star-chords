@@ -1,5 +1,5 @@
-<?php require_once "../src/views/header.php" ?>
-<?php require_once "../src/views/header_nav.php" ?>
+<?php require_once "../src/views/header.php"; ?>
+<?php require_once "../src/views/header_nav.php"; ?>
 
 <body>
     <div class="colunas">
@@ -23,5 +23,13 @@
             <img style="border-radius: 1em;" src="assets/img/Artboard-1_1.png" height="200" width="280" > </button> &nbsp;&nbsp;&nbsp;
         </div>
 </body>
+
+<h1 style ='color:red'>
+     <?php 
+     // só pra ver se ta logado
+     if(!empty($LOGINMSG)) {
+        echo $LOGINMSG;
+    } ?>
+</h1>
 
 </html>

@@ -1,3 +1,5 @@
+<?php include '../src/model/session_true.php' ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
