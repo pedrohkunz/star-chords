@@ -10,7 +10,17 @@
         <button type="button" class="btn btn-primary">Opções</button>&nbsp;&nbsp;
     </div>
     <hr style="color: white">
-        <br>
+
+    <!-- CTRL + ; DENTRO DO PHP PRA REMOVER DO SITE-->
+    <h1 class = 'bemvindo' >
+        <?php 
+        if(!empty($LOGINMSG)) {
+            echo $LOGINMSG; } 
+        ?> 
+    </h1>   
+    <!-- CTRL + ; NO PHP PRA REMOVER DO SITE-->
+
+    <br>
     <h1 class="titulo">Bandas recomendadas</h1>
         <div class="banner_banda">
             <img style="border-radius: 1em" src="assets/img/mettalica_banner.jpg" height ="200" width="280">&nbsp;&nbsp;&nbsp;

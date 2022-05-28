@@ -2,7 +2,7 @@
     session_start();
 
     if(isset($_SESSION['user']) != null) {
-        $LOGINMSG = 'Bem vindo meu nobre &nbsp ' . $_SESSION['user']->nome;
+        $LOGINMSG = 'Bem vindo meu nobre ' . $_SESSION['user']->nome;
        } else {
         header('location: ..\public\login.php');
     }

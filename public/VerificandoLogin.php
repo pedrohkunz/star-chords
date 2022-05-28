@@ -25,18 +25,22 @@ $resultDb = $db->select(
 if( isset($resultDb[0]) ){
     $emailDb = $resultDb[0]->email;
     $passDb = $resultDb[0]->pass;
+    $nameDb = $resultDb[0]->nome;
 } else {
     $emailDb = null;
     $passDb = null;
+    $nameDb = null;
 }
 ///////////////////////////////////////////////
-    if($email != null && $passDb != null){
+if($email != null && $passDb != null){
         if($email == $emailDb && $senha == $passDb) {
-            $msg = 'Bem vindo! 😀👍';
-            $redirect = "<meta http-equiv='refresh' content='2; url= inicio.php'/>";
+             // Acesso permitido e inicio da sessão de usuario
+             session_start();
+             $_SESSION['user'] = $resultDb[0];
+             $redirect = "<meta http-equiv='refresh' content='0; url= inicio.php'/>";
         } else {
-            $msg = 'Acesso negado! 👎😭 <hr>';
-            $redirect = "<meta http-equiv='refresh' content='2; url= login.php'/>";
+            // Acesso negado
+            $redirect = "<meta http-equiv='refresh' content='0; url= login.php'/>";
         }
     }
 
