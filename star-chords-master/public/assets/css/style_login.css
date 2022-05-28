@@ -1,0 +1,31 @@
+body{
+    background-color: #141414;
+}
+
+.conteudo {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, #100b7c 40%);
+    border-radius: 2em;
+    padding-top: 70px;
+    padding-left: 110px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    text-align: left;
+}
+
+.titulo {
+    color: white;
+    display:flex;
+}
+
+.botoes {
+    text-align: left;
+}
+
+.subtitulo {
+    color: white;
+}
+
