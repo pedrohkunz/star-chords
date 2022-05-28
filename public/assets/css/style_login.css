@@ -1,5 +1,5 @@
 body{
-    background-color: #170d39;
+    background-color: #141414;
 }
 
 .conteudo {
@@ -7,7 +7,7 @@ body{
     margin-bottom: 30px;
     margin-left: 250px;
     margin-right: 250px;
-    background-color: #2b0e89;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(16,11,124,1) 40%);
     border-radius: 2em;
     padding-top: 70px;
     padding-left: 110px;

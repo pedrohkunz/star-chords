@@ -1,9 +1,9 @@
 body {
-    background-color: #2d2c33;
+    background-color: #141414;
 }
 
 .colunas {
-    background-color: #2d2c33;
+    background-color: #141414;
     padding-top: 3em;
     padding-left: 32%;
 }
@@ -42,5 +42,10 @@ body {
     margin-left: 13em;
     
 
+}
+
+.footer {
+    text-align: center;
+    color: white;
 }
 

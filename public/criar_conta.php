@@ -28,11 +28,8 @@
                 <br>
             <div>
                 <input type="submit" class="btn btn-primary" value="Criar conta" />
-                &nbsp;
-                <input type="button" class="btn btn-primary" value="Limpar" />
         </form>
     </div>            
 </div>
 </body>
-
 </html>
