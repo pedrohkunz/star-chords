@@ -1,4 +1,4 @@
-<?php include '../src/model/session_true.php' ?>
+<?php include '../model/session_true.php' ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
