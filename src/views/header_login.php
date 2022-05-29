@@ -8,4 +8,5 @@
     <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style_login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="../public/assets/img/fav_icon.jpg" type="image/x-icon">
 </head>

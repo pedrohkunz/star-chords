@@ -1,5 +1,6 @@
 <?php 
 
-    header("location: public/inicio.php")
+    header("location: public/login.php")
     
 ?>
+
