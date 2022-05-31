@@ -4,4 +4,4 @@ Atualmente o projeto está hospedado no link abaixo:
 
 https://star-chords.000webhostapp.com/public/inicio.php
 
-Atualmente o site apresenta problemas por conta do sistema MARAVILHOSO de hospedagem gratuita.
+Atualmente o site apresenta problemas por conta do sistema "MARAVILHOSO" de hospedagem gratuita.
