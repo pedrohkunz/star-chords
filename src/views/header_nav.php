@@ -17,7 +17,7 @@
 <div class="navbar">
     <nav class="navbar fixed-top" style="background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(16,11,124,1) 85%);">
         <div class="container-fluid">
-            <a style="color:white" class="navbar-brand">Star Chords</a>
+            <a href="../public/inicio.php" style="color:white" class="navbar-brand">Star Chords</a>
             <div class="col-6 ">
                 <form class="d-flex align-items-center" role="search">
                     <input class="form-control me-2" type="search" placeholder="O que você quer ouvir agora?" aria-label="Search">
