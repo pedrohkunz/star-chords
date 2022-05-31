@@ -1,7 +1,7 @@
 <?php
 
 namespace Database;
-require_once 'config.php';
+require_once 'config_local.php';
 
 use Exception;
 use PDO; // PHP DATA OBJECTS

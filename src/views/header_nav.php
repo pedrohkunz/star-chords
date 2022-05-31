@@ -1,4 +1,4 @@
-<?php include '../model/session_true.php' ?>
+<?php include '../session_true.php'; ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -8,11 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style_inicio.css">
-    <title>Inicio</title>
 </head>
 
 <!-- Inicio da navbar -->
-
 
 <div class="navbar">
     <nav class="navbar fixed-top" style="background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(16,11,124,1) 85%);">

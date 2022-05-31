@@ -7,8 +7,8 @@
     <!-- CTRL + ; DENTRO DO PHP PRA REMOVER DO SITE-->
     <h1 class = 'bemvindo' >
         <?php 
-        if(!empty($LOGINMSG)) {
-            echo $LOGINMSG; } 
+        if(!empty(LOGINMSG)) {
+            echo LOGINMSG; } 
         ?> 
     </h1>   
     <!-- CTRL + ; NO PHP PRA REMOVER DO SITE-->
