@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 02-Jun-2022 às 00:02
+-- Tempo de geração: 02-Jun-2022 às 00:20
 -- Versão do servidor: 10.4.24-MariaDB
 -- versão do PHP: 7.4.28
 
@@ -40,8 +40,8 @@ CREATE TABLE `cadastros` (
 
 INSERT INTO `cadastros` (`cod`, `nome`, `email`, `pass`) VALUES
 (1, 'Pedro', 'pedrokunz094@gmail.com', '1234'),
-(5, 'nathan', 'nathan@gmail.com', '1234'),
-(7, 'teste', 'teste@gmail.com', '1234');
+(5, 'Nathan', 'nathan@gmail.com', '1234'),
+(8, 'Mathias', 'mathias@gmail.com', '1234');
 
 --
 -- Índices para tabelas despejadas
@@ -61,7 +61,7 @@ ALTER TABLE `cadastros`
 -- AUTO_INCREMENT de tabela `cadastros`
 --
 ALTER TABLE `cadastros`
-  MODIFY `cod` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `cod` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
